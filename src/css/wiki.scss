@@ -1,0 +1,61 @@
+.wiki-container {
+    margin-top: 1.5rem;
+}
+.results-box {
+    margin-left: 20vw;
+    width: 80vw;
+}
+
+.resulted-item {
+    display: inline-block;
+    padding: .5rem;
+    border-bottom: .1rem solid black;
+    top: 30px;
+    text-align: justify;
+    width: 60vw;
+}
+
+.header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.text {
+    display: block;
+    margin: .5rem 0;
+    font-size: medium;
+    line-height: 2rem;
+}
+
+.link {
+    padding: .8rem;
+    background-color: aqua;
+    &:hover {
+        background-color: darken(aqua, 5%);
+    }
+
+    border: 1px solid blue;
+    border-radius: .3rem;
+    float: right;
+}
+
+.searchbar-label-box {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.searchbar-label {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.searchbar-input {
+    margin-top: 2rem;
+    width: 70vw;
+    height: 2vw;
+    padding: .2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}

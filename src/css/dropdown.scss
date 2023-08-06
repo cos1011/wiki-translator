@@ -1,0 +1,43 @@
+$option-color: rgb(199, 190, 190);
+
+.dropdown-box {
+    height: 5rem;
+}
+
+.dropdown-form {
+    margin: 1rem;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+    width: 7rem;
+}
+
+.dropdown-field {
+    // margin: 4%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.dropdown-label {
+    padding: .1rem .2rem;
+    text-transform: uppercase;
+    border-bottom: .2rem solid black;
+    white-space: nowrap;
+}
+
+.dropdown-selection {
+    display: none;
+    &-visible {
+        display: block;
+    }
+}
+
+.option-item {
+    margin: 1px 0;
+    padding: 1px 3px;
+    &:hover {
+        background-color: $option-color;
+    }
+}
+
+

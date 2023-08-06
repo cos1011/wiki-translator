@@ -1,0 +1,49 @@
+.input-output-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.translator-container {
+    // display: flex;
+    // flex-direction: row;
+}
+
+.translation-bar-box {
+    margin: 1rem;
+    display: inline-block;
+}
+
+.convert-bar-box {
+    margin: 1rem;
+    display: inline-block;
+}
+
+.output-box h3 {
+    font-size: 280%;
+    text-align: center;
+}
+
+.translated-output{
+    padding: .4rem;
+    width: 30vw;
+    height: 5vw;
+    border: 1px solid black;
+    border-radius: .2rem;
+}
+
+.translator-bar-label {
+    display: block;
+}
+.translator-input {
+    border: 1px solid black;
+    border-radius: .2rem;
+    padding: 1.2rem;
+    font-size: 2rem;
+    white-space: normal;
+}
+
+.input-text {
+    text-align: center;
+}

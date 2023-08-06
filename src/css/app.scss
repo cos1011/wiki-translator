@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a > svg {
+    margin-right: 3px;
+}
+
+body {
+    font-size: 62.5%
+}
+
+$color-background-header: rgb(187, 147, 199);
+$color-text-header: black;
+$color-sing-in: grey;
+$color-sing-up: cyan;
+
+
+nav {
+    margin: .3rem;
+    background-color: $color-background-header;
+    border-radius: .2rem;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+.navigation {
+    list-style: none;
+    float: left;
+
+    li {
+        display: inline-block;
+        margin-left: 1.5rem;
+        padding: 10px;
+
+        &:first-child {
+            margin: 0;
+        }
+
+        a {
+            color: $color-text-header;
+        }
+
+        a:link {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-text-header;
+       }
+    }
+}
+
+.right-menu {
+    float: right;
+}
+
+.sign-in-btn,
+.sign-up-btn:link {
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 1rem;
+    margin-right: .1rem;
+    margin-top: .3rem;
+}
+
+.sign-in-btn {
+    &, &:link {
+        background-color: $color-sing-in;
+        color: white;
+    }
+
+    &:hover {
+        background-color: darken($color-sing-in, 20%);
+        color: white;
+    }
+}
+
+.sign-up-btn {
+    &:link {
+        background-color: $color-sing-up;
+        color: white;
+    }
+
+    &:hover {
+        background-color: darken($color-sing-up, 20%);
+        color: white;
+    }
+}
+
